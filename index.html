@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Artemisa Avelar is a front-end developer, based in Germany. In her website you can see all of her projects, and contact information."
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -35,10 +39,10 @@
       <nav class="d-flex justify-content-between">
         <div class="name d-none d-md-block">Artemisa Avelar</div>
         <ul class="text-end">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="index.html" title="Homepage">Home</a></li>
+          <li><a href="about.html" title="About Artemisa Avelar">About</a></li>
+          <li><a href="work.html" title="Artemisa Avelar work">Work</a></li>
+          <li><a href="contact.html" title="Contact Artemisa">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,14 +52,16 @@
       <h1>Artemisa Avelar</h1>
       <h2 class="mb-5">Frontend developer, based in Germany</h2>
       <div>
-        <a class="btn btn-branding" href="#">Contact me</a>
+        <a class="btn btn-branding" href="contact.html" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Features my projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img src="images/yogurt.png" class="img-fluid" alt="yogurt project" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -66,7 +72,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a class="btn btn-detail-project" href="#">View project</a>
+            <a class="btn btn-detail-project" href="work.html" title="Work page"
+              >View project</a
+            >
           </div>
         </div>
       </div>
@@ -89,12 +97,20 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather-app.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather-app.png"
+            class="img-fluid"
+            alt="weather project"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="dictionary project"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -105,7 +121,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a class="btn btn-detail-project" href="#">View project</a>
+            <a class="btn btn-detail-project" href="work.html" title="Work page"
+              >View project</a
+            >
           </div>
         </div>
       </div>
@@ -115,19 +133,37 @@
             <h4>Work Inquiry</h4>
             <p class="text-muted">Lets work together</p>
           </div>
-          <div><a href="" class="btn btn-branding">Contact me</a></div>
+          <div>
+            <a href="contact.html" title="Contact me" class="btn btn-branding"
+              >Contact me</a
+            >
+          </div>
         </div>
         <a
           href="mailto:arte.avelar@gmail.com"
           target="_blank"
           class="email-link mb-5"
+          title="Email Artemisa"
           >arte.avelar@gmail.com</a
         >
         <div class="social-links text-center">
-          <a href="https://github.com/ArteAvelar" class="rounded-circle"
+          <a
+            href="https://github.com/ArteAvelar"
+            title="Github Profile"
+            class="rounded-circle"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This page was coded by Artemisa Avelar and it is
+          <a
+            href="https://github.com/ArteAvelar/portfolio-project"
+            title="Github profile"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
