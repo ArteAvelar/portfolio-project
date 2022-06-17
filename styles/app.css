@@ -181,7 +181,8 @@ footer .social-links a:hover {
   }
 
   @media (max-width: 920px) {
-    h1 {
+    h1,
+    .content h1 {
       font-size: 44px;
     }
     h2 {
@@ -192,6 +193,10 @@ footer .social-links a:hover {
     }
     .hero p {
       font-size: 20px;
+    }
+
+    .content h1 {
+      line-height: 55px;
     }
 
     .project-description,
